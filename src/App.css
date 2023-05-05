@@ -1,38 +1,73 @@
-.App {
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header-text {
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+  color: orange;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.css-u0soqy-MuiPickerStaticWrapper-root {
+  box-shadow: 3px 2px 10px 5px #888888 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.css-hlj6pa-MuiDialogActions-root {
+  display: none !important;
 }
 
-.App-link {
-  color: #61dafb;
+.css-j88s13-MuiPickersToolbar-root-MuiDatePickerToolbar-root
+  .MuiPickersToolbar-penIconButton {
+  display: none !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.css-j88s13-MuiPickersToolbar-root-MuiDatePickerToolbar-root {
+  padding: 0 !important;
 }
+
+.css-hq2kpw-MuiGrid-root-MuiPickersToolbar-content {
+  justify-content: center !important;
+  background-color: orange;
+  padding: 1rem;
+}
+
+.css-1hbyad5-MuiTypography-root {
+  display: none !important;
+}
+
+.css-bkrceb-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: orange !important;
+}
+
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root.Mui-selected {
+  background-color: orange !important;
+  color: black !important;
+}
+.css-195y93z-MuiButtonBase-root-MuiPickersDay-root:not(.Mui-selected) {
+  border-color: transparent !important;
+  color: orange;
+}
+
+.css-144dnr3-MuiBadge-badge {
+  color: green;
+}
+
+.css-1n2mv2k {
+  background-color: #f4f4f4;
+  margin-bottom: 1rem;
+}
+
+
+.css-cwhad8-MuiDateCalendar-root{
+  box-shadow: 3px 2px 10px 5px #888888 !important;
+  margin-top: auto;
+  margin-right: auto;
+}
+.css-4pax7l-MuiPickersLayout-root .MuiPickersLayout-toolbar{
+  margin-left: auto;
+  margin-right: auto;
+}
+
